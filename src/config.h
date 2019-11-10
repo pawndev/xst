@@ -139,6 +139,7 @@ static MouseKey mkeys[] = {
 	/* button               mask            function        argument */
 	{ Button4,              XK_NO_MOD,      kscrollup,      {.i =  0} },
 	{ Button5,              XK_NO_MOD,      kscrolldown,    {.i =  0} },
+  { Button3,              XK_NO_MOD,      clippaste,      {.i =  0} }
 };
 
 /* Internal keyboard shortcuts. */
